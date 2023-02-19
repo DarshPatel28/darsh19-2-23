@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css" />
+    <script src="JS/wow.min.js" type="text/javascript"></script>
+    <link href="CSS/animate.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Darsh Patel</title>
+
+
+    <style>
+        .nav{
+            /* height: 20px; */
+            background-color:transparent;
+            background-size: cover;
+            display: flex;
+            flex-direction: row;
+            
+        }
+            
+
+            .nav > div{
+                justify-content: center;
+                font-size:40px;
+                color: white;
+                padding:30px;
+                
+            }
+
+            .ht{
+            animation-name: bo1;
+            animation-duration: 5s;
+            text-align: center;
+            margin-top: 10%;
+            animation-iteration-count: infinite;
+        }
+       
+        @keyframes bo1{
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-2px, -2px) rotate(-2deg); }
+            20% { transform: translate(-3px, 0px) rotate(2deg); }
+            30% { transform: translate(4px, 2px) rotate(0deg); }
+            40% { transform: translate(2px, -1px) rotate(1deg); }
+            50% { transform: translate(-2px, 2px) rotate(-2deg); }
+            60% { transform: translate(-4px, 1px) rotate(0deg); }
+            70% { transform: translate(2px, 1px) rotate(-2deg); }
+            80% { transform: translate(-2px, -1px) rotate(2deg); }
+            90% { transform: translate(2px, 2px) rotate(0deg); }
+            100% { transform: translate(2px, -2px) rotate(-2deg); }
+        }
+
+
+
+
+        /* project  */
+        .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color:transparent;
+        justify-content: center;
+        height: 250px;
+        }
+
+        .flex-container > div {
+        background-color: silver;
+        width: 170px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        border-radius: 5px;
+        color: white;
+        }
+
+
+
+        /* preloader */
+        #preloader{
+        background: #000 url(images/loading-37.gif)no-repeat center;
+        background-size:15% ;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index:100 ; 
+        }
+
+
+        /* .last{
+                    width: 100%;
+                    max-width: 600px;
+                    padding: 20px 40px;
+                    box-sizing: border-box;
+                    text-align: center;
+                    justify-content: center;
+                    color: #f1f1f1;
+                    } */
+
+                    #socialm{
+                        text-align: center;
+                    }
+    </style>
+
+
+</head>
+<body bgcolor="black">
+
+    <!-- <video video autoplay loop muted><source src="../new/images/video.webm"></video> -->
+    <!-- preloader -->
+    <script>
+
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load",function(){
+          loader.style.display="none";
+        })
+  
+      </script>
+
+
+
+    <!-- nan bar -->
+    <div class="nav">
+            
+            <img src="images/nav.png" height="70px" style="border-radius: 50px;" />
+            
+            <div><b>Darsh Patel</b></div>  
+                
+        
+    </div>
+
+    <!-- empty div -->
+    <div style="height: 50px;"></div>
+
+
+
+    <!-- main body -->
+    <div
+        style="background-color:transparent; 
+                height: 550px;
+                flex-wrap:nowrap;
+                margin-left: 30px;">
+                
+                <!-- left -->
+                <div
+                    style="
+                            float: left;
+                            margin-left: 20px;">
+                            <img src="images/namaste-removebg.png" height="300px" width="350px">
+                </div>
+
+                <!-- right -->
+                <div
+                    style="
+                    height: 200px;
+                    width: 250px;
+                    float: right;
+                    font-size: 50px;
+                    margin-right: 25px;">
+
+                    <p style="color: rgb(255, 255, 255);">Hi,
+                    <br>I'm <span style="color: rgb(254, 20, 20);">Darsh</span>
+                    <a href="mailto:darshp232@gmail.com"><button style="background-color: red;border-radius: 10px; width: 100px; height: 30px; color: white;">Hire Me 🙋🏻‍♂️</button></a>
+                    <!-- <a href="https://drive.google.com/file/d/1jwZdJfh1WL4VGvkWqtPGhxtGy43BWbPE/view?usp=share_link"><button style="background-color: red;border-radius: 10px; width: 100px; height: 30px; color: white;">Download CV</button></a> -->
+                </p>
+                </div>
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- skills -->
+    <div style="color: white;height: 50px;text-align: center; font-size:50px;">
+        <b><hi>Skills &lt;/&gt;</hi></b>
+    </div>
+
+    <!-- space -->
+<br>
+<br>
+<br>
+<br>
+
+
+
+    <!-- skill img -->
+    <div class="ht" style="justify-content: center; text-align: center;">
+        <img src="images/html.png" height="130px"><br>
+    </div>
+
+    <br>
+    <br>
+    
+
+    <div class="ht" style="justify-content: center; text-align: center;">
+        <img src="images/css.png" height="130px"><br>
+    </div>
+
+    <br>
+    <br>
+
+
+    <div class="ht" style="justify-content: center; text-align: center;">
+        <img src="images/js-format.png" height="130px"><br>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="ht" style="justify-content: center; text-align: center;">
+        <img src="images/c.png" height="130px"><br>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Project -->
+
+    <div style="color: white;height: 50px;text-align: center; font-size:50px;">
+        <b><hi>Projects</hi></b>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- project1 -->
+    <!-- <div style="height: 150px; width: 100px; background-color: silver;border-radius: 10px;">
+
+        <div style="height: 50px;width: 40px">
+            <div style="height: 50px; width: 50px;background-color: aqua;border-radius: 20px;margin-left: 25px;text-align: center;"><span style="font-size: 40px;">1</span></div>
+            <span>project-1</span>
+            
+        </div>
+    </div> -->
+    <div class="flex-container">
+        <div><a href="https://darshpatel28.github.io/darshpatel.github.io/" style="text-decoration: none;"><img src="images/project.png" width="100px" height="140px"><span style="color: #f1f1f1;">Project-1</span></a></div>
+        <div><a href="https://darshpatel28.github.io/int.github.io/" style="text-decoration: none;"><img src="images/project.png" width="100px" height="140px"><span style="color: #f1f1f1;">Project-2</span></a></div>
+        <div><img src="images/coming.png" width="100px" height="140px"><span>Project-3</span></div> 
+    </div>
+    
+
+
+    <!-- <div class="last">
+        <p>Get in touch or find out more about me on:</p>
+        <p>
+        <span><a href="https://instagram.com/darshpatel_28?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a></span>
+        <span><a href="https://github.com/DarshPatel28/" target="_blank"><i class="fa fa-github"></i></a></span>
+        <span><a href="https://twitter.com/darshpatel_28" target="_blank"><i class="fa fa-twitter"></i></a></span>
+        <span><a href="https://www.linkedin.com/in/darsh-patel-9a6a23233" target="_blank"><i class="fa fa-linkedin"></i></a></span>
+        </p>
+        <p>BY: Darsh Patel</p>
+    </div> -->
+    <div id="socialm">
+        <p style="color: #f1f1f1;">Get in touch or find out more about me on:</p>
+    
+        
+        <span><a href="https://www.snapchat.com/add/darshpatel_28?share_id=M0QxNkIyQTUtMjM3Ni00RkQ1LUFBRDctNTIwNjY1M0I5Nzgx&locale=en_IN" style="text-decoration: none;"><i class="fa fa-snapchat"  style="color: rgb(255 252 0);font-size:30px;"></i></span>&nbsp;
+
+       <span><a href="https://instagram.com/darshpatel_28?igshid=YmMyMTA2M2Y=" style="text-decoration: none;"><i class="fa fa-instagram"  style="color: rgb(138, 58, 185);font-size:30px;"></i></span> &nbsp;
+
+        <span><a href="https://twitter.com/darshpatel_28"><i class="fa fa-twitter-square  fa-bounce" style="color: rgb(0, 119, 255);font-size:30px;"></i></a></span>
+        <p style="color: #f1f1f1;">BY: Darsh Patel</p>
+    </div>
+</html>
